@@ -1,0 +1,1 @@
+ scrot -s '%Y-%m-%d_$wx$h.png' -e 'mkdir -p ~/shots/%Y-%m-%d;mv $f ~/shots/%Y-%m-%d'  -e 'mkdir -p ~/shots/%Y-%m-%d/%m-%d;mv $f ~/shots/%Y-%m-%d/%m-%d'  -e 'mkdir -p ~/shots/%Y-%m-%d/%m-%d/%d;mv $f ~/shots/%Y-%m-%d/%m-%d/%d'
