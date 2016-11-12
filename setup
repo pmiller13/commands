@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo 'Making bin directory'
+echo ''
+mkdir ~/bin
+echo 'Updating PATH'
+echo ''
+export PATH=$PATH:~/bin
+echo 'Copying command(s)'
+cp -r ./* ~/bin
+echo 'Making executable...'
+chmod -R u+x ~/bin
