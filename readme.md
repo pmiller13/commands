@@ -2,3 +2,4 @@
 ------------
 ### scrots
 Rectangle screenshots get sorted into ~/shots/
+* What
