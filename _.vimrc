@@ -9,3 +9,4 @@ set showmatch
 set ruler
 set autoindent
 highlight Visual cterm=reverse ctermbg=NONE
+set backspace=indent,eol,start
